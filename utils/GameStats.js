@@ -7,7 +7,7 @@ export default class GameStats {
       this.deaths = data.deaths || 0;
       this.score = data.score || 0;
     } else {
-      this.reset(); // fallback
+      this.reset(); 
     }
   }
 
@@ -50,7 +50,6 @@ export default class GameStats {
   }
 }
 
-// Reset automático apenas uma vez
 if (!localStorage.getItem('gameStats_initialized')) {
   GameStats.reset();
   localStorage.setItem('gameStats_initialized', 'true');

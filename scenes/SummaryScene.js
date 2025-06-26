@@ -31,7 +31,7 @@ export default class SummaryScene extends Phaser.Scene {
     resetButton.on('pointerdown', () => {
       GameStats.reset();
       localStorage.removeItem('gameStats_initialized');
-      this.scene.restart(); // Atualiza a tela com valores zerados
+      this.scene.restart(); 
     });
   }
 }
