@@ -13,7 +13,7 @@ export default class Collectible extends Phaser.Physics.Arcade.Sprite {
   }
 
   collect() {
-    this.emit('collected');  // Emitindo evento corretamente
+    this.emit('collected'); 
     this.setVisible(false);
     this.destroy();
   }
