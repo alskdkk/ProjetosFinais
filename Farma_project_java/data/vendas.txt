@@ -1,2 +1,1 @@
-William;Amoxicilina;50.599999999999994;2025-06-26
-William;Joao Pedro;50.599999999999994;2025-06-26
+William;Joao Pedro;36.0;2025-06-26
